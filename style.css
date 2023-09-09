@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background: linear-gradient(230deg , blue , green);
+}
+
+.main{
+    margin: 10% auto;
+    height: 100vh;
+    color: white;
+}
+
+.main h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black ,2px 2px 10px yellow;
+}
+
+form{
+    width: 90%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+form input{
+    margin-right: 20px;
+    padding: 10px;
+    flex: 1;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255) ;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+form .submitBtn{
+    padding: 10px;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    background-color:white; 
+    border-radius: 5px;
+    color: black;
+    flex-basis: 150px;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    margin: 50px auto;
+    background-color:rgb(255, 255, 255); 
+    border-radius: 5px;
+    display: none;
+}
+
+#searchResult{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr;
+    margin: 10%;
+    margin-bottom: 30px;
+    grid-gap:40px
+}
+
+#searchResult img{
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+
